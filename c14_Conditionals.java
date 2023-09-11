@@ -15,3 +15,17 @@ public class c14_Conditionals
 
     }
 }
+/*
+
+Relational Operators in Java : 
+Relational operators are used to evaluate conditions (true or false) inside the if statements. Some examples of relational operators are:
+
+== (equals)
+>= (greater than or equals to)
+> (greater than)
+< (less than)
+<= (less than or equals to)
+!= (not equals)
+Note: ‘=’ is used for an assignment whereas ‘==’ is used for equality check. The condition can be either true or false.
+
+*/
