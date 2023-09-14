@@ -3,6 +3,11 @@ public class c21_doWhile
 {
     public static void main(String[] args)
     {
+        /* do {
+
+            //code
+
+            } while (condition);            //Note this semicolon */
         int a = 0;
         do {
             System.out.println(a);
