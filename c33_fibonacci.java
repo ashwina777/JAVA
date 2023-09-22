@@ -2,9 +2,21 @@ package com.company;
 
 public class c33_fibonacci {
     static int fibonacci(int n) {
-        if (n <= 1) {
+       /*
+       if (n == 1) {
+            return 0;
+        }
+        else if(n==2)
+        {
             return 1;
-        } else {
+        }
+        */
+        if (n == 1 || n == 2)
+        {
+            return n - 1;
+        }
+        else
+        {
             return fibonacci(n - 1) + fibonacci(n - 2);
         }
     }
@@ -12,9 +24,9 @@ public class c33_fibonacci {
 
     public static void main(String[] args) {
 
-        int n = 5;
+        int num= 10;
         System.out.print("Fibonacci series: ");
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <= num; i++) {
             System.out.print(fibonacci(i) + " ");
         }
     }
